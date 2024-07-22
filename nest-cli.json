@@ -1,0 +1,18 @@
+{
+  "language": "ts",
+  "collection": "@nestjs/schematics",
+  "projects": {
+    "nestjs-google-captcha": {
+      "type": "library",
+      "root": "src/",
+      "entryFile": "src/index",
+      "sourceRoot": "src/nestjs-google-captcha/",
+      "compilerOptions": {
+        "tsConfigPath": "./tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
